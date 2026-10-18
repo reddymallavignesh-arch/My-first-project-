@@ -1,0 +1,450 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5952
+>>
+stream
+0.5670000000000001 w
+0 G
+0.04 0.05 0.06 rg
+0. 841.8899999999999864 595.2755905511811534 -841.8897637795276978 re
+f
+0.77 0.66 0.5 RG
+1.7007874015748032 w
+28.3464566929133888 813.5435433070865656 538.5826771653544256 -785.1968503937008563 re
+S
+BT
+/F10 22 Tf
+25.2999999999999972 TL
+0.773 0.659 0.502 rg
+56.6929133858267775 768.1892125984252289 Td
+(LUXORA TECHNICAL CODEBASE GUIDE) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.627 0.647 0.706 rg
+56.6929133858267775 751.1813385826771992 Td
+(Architecture, Components Hierarchy, Indian Rupee Payment Gateway & Framer Motion Engine) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.773 0.659 0.502 rg
+56.6929133858267775 717.1655905511811397 Td
+(1. Architectural Stack) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 700.15771653543311 Td
+(• Framework: React 19 SPA running on Vite 8 \(TypeScript ES2022\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 687.4018110236220309 Td
+(• Styling: Tailwind CSS v4 with custom Cinzel / Plus Jakarta typography.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 674.6459055118109518 Td
+(• Animation: Framer Motion v12 scroll-triggered reveal with [0.16, 1, 0.3, 1] cubic-bezier easing.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 661.8899999999999864 Td
+(• Icons: Lucide React icon library.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 649.1340944881889072 Td
+(• Persistence: LocalStorage synchronized state \(Cart items, Wishlist array, Order history\).) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.773 0.659 0.502 rg
+56.6929133858267775 627.8742519685039269 Td
+(2. Modular Component Hierarchy) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 610.8663779527558972 Td
+(• src/App.tsx: Central application state orchestrator & drawer controller.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 598.1104724409448181 Td
+(• src/components/Navbar.tsx: Top Bar Contract adhering to single-line navigation & action zones.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 585.3545669291338527 Td
+(• src/components/Hero.tsx: Showcase stage with interactive angle toggles & live balance oscillation.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 572.5986614173227736 Td
+(• src/components/ProductGallery.tsx: 3-column catalog grid with search, filter tabs, and Framer Motion stagger.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 559.8427559055116944 Td
+(• src/components/ShowcaseGallery.tsx: Curator spotlight carousel with AnimatePresence transitions.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 547.086850393700729 Td
+(• src/components/ProductDetailModal.tsx: Zoomable visual sheet, strap customizer & engraving.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 534.3309448818897636 Td
+(• src/components/CartDrawer.tsx: Slide-over bag with subtotal, duties, and complimentary shipping.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 521.5750393700786844 Td
+(• src/components/WishlistDrawer.tsx: Saved watches manager with localStorage persistence.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 508.8191338582676622 Td
+(• src/components/CheckoutModal.tsx: 3-step checkout with UPI, RuPay, RTGS Escrow & digital certificate.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 496.0632283464566399 Td
+(• src/components/OrderLookupModal.tsx: Live tracking and on-chain authenticity verification.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 483.3073228346456176 Td
+(• src/components/CraftsmanshipSection.tsx: Manufacture Calibre 3129 bench notes & microscopic detail.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.773 0.659 0.502 rg
+56.6929133858267775 462.0474803149605805 Td
+(3. Currency & Indian Payment Protocols) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 445.0396062992125508 Td
+(• Currency Formatter: src/utils/format.ts with Intl.NumberFormat\('en-IN', { style: 'currency', currency: 'INR' }\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 432.2837007874015285 Td
+(• UPI Instant Gateway: VPA support \(Google Pay, PhonePe, Paytm, BHIM\) with zero merchant surcharge.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 419.5277952755905062 Td
+(• Card Gateway: RuPay, Visa, Mastercard, and American Express with 3D Secure / OTP validation.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 406.7718897637794839 Td
+(• RTGS Escrow: Direct luxury escrow instructions via HDFC Bank Fort Mumbai Treasury.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 394.0159842519684616 Td
+(• Web3 Crypto: Multi-sig smart escrow contract \(USDC / BTC / ETH\) with in-transit lock.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.773 0.659 0.502 rg
+56.6929133858267775 372.7561417322834245 Td
+(4. Production Asset Bundling Verification) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 355.7482677165353948 Td
+(• Images directly imported in src/data/watches.ts via ES Modules for Vite hash-bundling.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 342.9923622047243725 Td
+(• Static public fallback copies in public/images/ guaranteeing 100% uptime on shared links.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.745 0.765 0.804 rg
+62.3622047244094517 330.2364566929132934 Td
+(• Proactive onError handlers on every <img> element preventing broken image states.) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261017115022-00'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000006156 00000 n 
+0000007973 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000006213 00000 n 
+0000006338 00000 n 
+0000006468 00000 n 
+0000006601 00000 n 
+0000006738 00000 n 
+0000006861 00000 n 
+0000006990 00000 n 
+0000007122 00000 n 
+0000007258 00000 n 
+0000007386 00000 n 
+0000007513 00000 n 
+0000007642 00000 n 
+0000007775 00000 n 
+0000007877 00000 n 
+0000008221 00000 n 
+0000008307 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <F4C202C07C360107B9E1925959C178A1> <F4C202C07C360107B9E1925959C178A1> ]
+>>
+startxref
+8411
+%%EOF
